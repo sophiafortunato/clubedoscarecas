@@ -1,17 +1,14 @@
 body {
     margin: 0;
-    font-family: ;
+    font-family: Saeda;
     background-color: #FFF5DF;
     color: whitesmoke;
     min-height: 100vh;
+}
 
-    display: grid;
-    grid-template-columns: 270px 1fr;
-    grid-template-rows: 1fr auto;
-    grid-template-areas:
-                "sidebar grade"
-                "sidebar footer";
-
+@font-face {
+    font-family: "Saeda";
+    src: url(../fonts/LTSaeada-Regular.otf);
 }
 
 @font-face {
@@ -31,6 +28,13 @@ body {
 
 }
 
+.navbar-brand{
+    font-family: Ristoy;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+
 .caixa-menu {
     color: white;
     text-decoration: none;
@@ -41,8 +45,9 @@ body {
 
 
 .caixa-menu:hover{
-    background: #ffffff;
+    background: #d4e18abc;
     color: #4a3b78;
+    
 }
 
 .caixa-menu-titulo{
@@ -97,7 +102,7 @@ body {
     justify-content: space-between;
     padding: 10px 20px;
     margin: 0 30px 20px;
-    background: #A8C9B5;
+    background: #DDE7A3;
     border-radius: 20px;
     font-size: 14px;
 }

@@ -1,2 +1,2 @@
 # Projeto clube dos carecas 
-👩🏽‍🦲 Iniciei o projeto, adicionando o index e o estilizei
+👩🏽‍🦲 Iniciei o projeto, adicionando o index e o estilizei, em seguida terminei a estilização da navbar
