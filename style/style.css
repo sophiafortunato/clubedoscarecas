@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: ;
+    background-color: #FFF5DF;
+    color: whitesmoke;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+                "sidebar grade"
+                "sidebar footer";
+
+}
+
+@font-face {
+    font-family: 'Ristoy';
+    src: url(../fonts/Ristoy.ttf);
+}
+
+.sidebar { grid-area: sidebar;}
+
+
+.sidebar {
+    display: grid;
+    align-content: start;
+    gap: 5px;
+    padding: 30px 15px;
+    background-color: #DDE7A3;
+
+}
+
+.caixa-menu {
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+
+.caixa-menu:hover{
+    background: #ffffff;
+    color: #4a3b78;
+}
+
+.caixa-menu-titulo{
+    font-family: Ristoy;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #4a3b78;
+    margin-bottom: 20px;
+}
+
+.titulo:hover{
+    background: none;
+    color: #4a3b78;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 120px;
+    gap: 15px;
+    padding: 30px;
+    align-content: start;
+}
+
+.caixa{
+    background: #cdeffd;
+    color: #3d5a80;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+
+    display: grid;
+    place-items: center;
+}
+
+.caixa:hover{
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0 30px 20px;
+    background: #A8C9B5;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.footer{
+    margin: 0;
+}
