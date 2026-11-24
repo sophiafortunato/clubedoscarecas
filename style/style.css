@@ -24,7 +24,7 @@ body {
     align-content: start;
     gap: 5px;
     padding: 30px 15px;
-    background-color: #DDE7A3;
+    background-color: #A8C9B5;
 
 }
 
@@ -33,9 +33,11 @@ body {
     color: white;
     text-decoration: none;
     font-size: 50px;
+    text-shadow: #615f5fbc;
 }
 
 .caixa-menu {
+    flex-direction: row-reverse; 
     color: white;
     text-decoration: none;
     padding: 10px 12px;
@@ -43,31 +45,18 @@ body {
     transition: 0.2s;
 }
 
-
 .caixa-menu:hover{
-    background: #d4e18abc;
+    background: #A8C9B5;
     color: #4a3b78;
     
 }
 
 .caixa-menu-titulo{
     font-family: Ristoy;
-    font-size: 30px;
-    margin-bottom: 30px;
-    margin-left: 10px;
+    font-size: 70px;
+    padding: 0 0 0 ;
 }
 
-.titulo{
-    font-size: 30px;
-    font-weight: bold;
-    color: #4a3b78;
-    margin-bottom: 20px;
-}
-
-.titulo:hover{
-    background: none;
-    color: #4a3b78;
-}
 
 .grade {
     display: grid;
@@ -76,19 +65,6 @@ body {
     gap: 15px;
     padding: 30px;
     align-content: start;
-}
-
-.caixa{
-    background: #cdeffd;
-    color: #3d5a80;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-    transition: 0.3s;
-
-    display: grid;
-    place-items: center;
 }
 
 .caixa:hover{
@@ -102,7 +78,7 @@ body {
     justify-content: space-between;
     padding: 10px 20px;
     margin: 0 30px 20px;
-    background: #DDE7A3;
+    background: #A8C9B5;
     border-radius: 20px;
     font-size: 14px;
 }
@@ -110,3 +86,23 @@ body {
 .footer{
     margin: 0;
 }
+
+.carousel-slide{
+    padding: 100px 30px 50px;
+}
+
+.bg-1 {
+    background-color: #FFF0B3;
+}
+
+.bg-2 {
+    background-color: #FFD166;
+}
+
+.bg-3 {
+    background-color: #F4A261;
+}
+
+    .fg-emphasis-secondary mb-3{
+        color: white;
+    }
